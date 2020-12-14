@@ -1,12 +1,25 @@
 <resources>
-    <string name="app_name">Demo App</string>
-    <string name="banner_splash_screen">Demo\nApp</string>
+    <string name="app_name">Demo eMoney</string>
+    <string name="banner_splash_screen">Demo\neMoney</string>
+
     <string name="content_image_background">image_background</string>
+    <string name="content_image_profile">image_profile</string>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
-    <string name="title_activity_home">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="your_id">Your ID :</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="about">About</string>
+    <string name="help_center">Help Center</string>
+    <string name="sign_out">Sign Out</string>
+
+
 </resources>

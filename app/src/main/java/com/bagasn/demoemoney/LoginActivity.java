@@ -61,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         }
 
-        Toast.makeText(this, "Your email hasn't registered.", Toast.LENGTH_SHORT)
+        Toast.makeText(this, "Your email is not registered yet.", Toast.LENGTH_SHORT)
                 .show();
     }
 

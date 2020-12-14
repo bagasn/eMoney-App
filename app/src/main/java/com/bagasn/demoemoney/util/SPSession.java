@@ -40,4 +40,10 @@ public class SPSession {
         return mSP.getString(key, "");
     }
 
+    public void clearSession() {
+        mSP.edit()
+                .clear()
+                .apply();
+    }
+
 }
