@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bagasn.demoemoney">
+    package="com.bagasn.demoemoney" >
 
     <application
         android:allowBackup="true"
@@ -8,12 +8,16 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DemoEMoney">
+        android:theme="@style/Theme.DemoEMoney" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
         <activity
             android:name=".SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.DemoEMoney.NoActionBar.Splash"
-            android:windowSoftInputMode="stateAlwaysHidden">
+            android:windowSoftInputMode="stateAlwaysHidden" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -25,9 +29,6 @@
             android:name=".LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.DemoEMoney.NoActionBar" />
-        <activity
-            android:name=".HomeActivity"
-            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
