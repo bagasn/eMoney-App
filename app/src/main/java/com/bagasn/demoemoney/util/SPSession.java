@@ -25,10 +25,11 @@ public class SPSession {
         return new SPSession(context);
     }
 
-    public void putString(String key, String value) {
+    public SPSession putString(String key, String value) {
         mSP.edit()
                 .putString(key, value)
                 .apply();
+        return this;
     }
 
     public String getString(String key, String defValue) {

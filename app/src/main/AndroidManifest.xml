@@ -12,7 +12,7 @@
         <activity
             android:name=".SplashActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.DemoEMoney.NoActionBar"
+            android:theme="@style/Theme.DemoEMoney.NoActionBar.Splash"
             android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,8 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.DemoEMoney.NoActionBar" />
         <activity
             android:name=".HomeActivity"
             android:screenOrientation="portrait" />

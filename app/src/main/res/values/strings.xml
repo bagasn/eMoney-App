@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">Demo EMoney</string>
+    <string name="app_name">Demo App</string>
     <string name="banner_splash_screen">Demo\nApp</string>
+    <string name="content_image_background">image_background</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
 </resources>
